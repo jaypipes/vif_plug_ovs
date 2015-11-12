@@ -16,11 +16,11 @@ import os
 
 from oslo_log import log as logging
 from oslo_utils import excutils
-
-from os_vif import iptables
-from os_vif.i18n import _LE
 from os_vif import pci
-from os_vif import processutils
+
+from vif_plug_ovs import iptables
+from vif_plug_ovs.i18n import _LE
+from vif_plug_ovs import processutils
 
 LOG = logging.getLogger(__name__)
 
