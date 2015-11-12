@@ -44,3 +44,5 @@ The following configuration options are used by the
   daemon mode which can increase the performance of root-run commands.
 * `rootwrap_config` -- Defaults to `'/etc/nova/rootwrap.conf'`. Path to the
   `oslo.rootwap` config file.
+* `ovs_vsctl_timeout` -- Defaults to `120`. Number of seconds the `ovs-vsctl`
+  program should wait before erroring out.

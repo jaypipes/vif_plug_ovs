@@ -30,6 +30,7 @@ class OvsHybridPlugin(plugin.PluginBase):
         processutils.configure(**config)
         linux_net.configure(**config)
         self.network_device_mtu = config.get('network_device_mtu', 1500)
+        self.ovs_vsctl_timeout = config.get('ovs_vsctl_timeout', 120)
 
     def get_supported_vifs(self):
         return set([objects.PluginVIFSupport(PLUGIN_NAME, '1.0', '1.0')])
