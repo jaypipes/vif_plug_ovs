@@ -21,7 +21,7 @@ from oslo_concurrency import processutils
 from oslo_log import log as logging
 from oslo_utils import strutils
 
-from os_vif.i18n import _
+from vif_plug_ovs.i18n import _
 
 LOG = logging.getLogger(__name__)
 _ROOTWRAPPER = None
