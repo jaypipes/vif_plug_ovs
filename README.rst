@@ -8,7 +8,7 @@ OpenVSwitch.
 Features
 --------
 
-* A `vif_plug_ovs.ovs.OvsPlugin` VIF plugin for standard OVS bridges
+* A `vif_plug_ovs.ovs.OvsBridgePlugin` VIF plugin for standard OVS bridges
 * A `vif_plug_ovs.ovs_hybrid.OvsHybridPlugin` VIF plugin that uses an extra
   Linux bridge to house iptables rules for the virtual machine traffic.
 

@@ -29,7 +29,7 @@ setuptools.setup(
     setup_requires=['pbr'],
     entry_points={
         'os_vif': [
-            'ovs = vif_plug_ovs.ovs:OvsPlugin',
+            'ovs = vif_plug_ovs.ovs:OvsBridgePlugin',
             'ovs_hybrid = vif_plug_ovs.ovs_hybrid:OvsHybridPlugin',
         ],
     pbr=True)
