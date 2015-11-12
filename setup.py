@@ -28,7 +28,7 @@ except ImportError:
 setuptools.setup(
     setup_requires=['pbr'],
     entry_points={
-        'os_vif.plugin': [
+        'os_vif': [
             'ovs = vif_plug_ovs.ovs:OvsPlugin',
             'ovs_hybrid = vif_plug_ovs.ovs_hybrid:OvsHybridPlugin',
         ],
