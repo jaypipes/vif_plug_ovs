@@ -25,7 +25,7 @@ class OvsHybridPlugin(plugin.PluginBase):
     security group rules to be applied to traffic coming in or out of
     a virtual machine.
     """
-    
+
     def __init__(self, **config):
         processutils.configure(**config)
         linux_net.configure(**config)
